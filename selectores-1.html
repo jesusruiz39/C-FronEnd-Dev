@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de selectores BASICOS</title>
+
+    <!-- Esto no es una buena practica, pero sirve para ejemplificar la clase -->
+    <style> 
+        /* SELECTOR UNIVERSAL */
+        *{
+            background: papayawhip;
+        }
+        /* SELECTOR DE TIPO */
+        div {
+            background: pink;
+        }
+        /* SELECTOR DE CLASE */
+        .title {
+            color: blueviolet;
+        }
+        /* SELECTOR DE ID */
+        #title2 {
+            color: yellow;
+        }
+        /* SELECTOR DE ATRIBUTO */
+        a[href="https://github.com/"] {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="title">Hola mundo</div>
+    <div id="title2">Hello world</div>
+    <a href="https://github.com/">GitHub</a>
+</body>
+</html>

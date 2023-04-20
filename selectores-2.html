@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de selectores combinadores</title>
+    <!-- Esto no es una buena practica, pero nos sirve para ejemplificar -->
+    <style>
+        /* DESENDIENTES (esto quiere decir que todos los 'p' que esten dentro de 'div' seguira las instrucciones) */
+        div p{
+            color: lime;
+        }
+        /* HIJO DIRECTO (esto quiere decir que esta {} es solo la configuracion para el hijo directo, osea el segundo 'div' adentro de ese 'div') */
+        div > div {
+            background: plum;
+        }
+        /* ELEMENTO ADYACENTE (que es el elemnto seguido del que ponemos)*/
+        div + section {
+            background: papayawhip;
+        }
+        /* GENERAL DE HERMANOS (esto quiere decir que todo lo que este despues de ~ va a hacer {}) */
+        section ~ p{
+            color:blue;
+        }
+        
+        .es {
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div>
+        <div>
+            <p>Platzy</p>
+            <div class="es">
+                Es
+            </div>
+        </div>
+    </div>
+
+    <section>
+        Lo mejor
+    </section>
+
+    <p>Jesus David</p>
+    <p>Mexico City</p>
+</body>
+</html>
