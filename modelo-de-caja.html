@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caja</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: skyblue;
+            /* 'padding' es un atributo que da un relleno fuera de la box, sumando el tamano del contenido */
+            padding: 20px;
+            /* bpx-sizing: border-box; nos ayuda a que el padding(en general todo) se parte del contenido, asi no se modifica su tamano original propuesto */
+            box-sizing: border-box;
+            /* Crea un borde y este consituye de 3 apartados (tamano, tipo de borde, color) */
+            border: 1px solid red;
+            /* margin, es un margen que se pone, o una separacion entre todo */
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>content</div>
+    <div>cantent2</div>
+</body>
+</html>
