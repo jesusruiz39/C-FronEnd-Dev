@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+
+        .container{
+            width: 200px;
+            height: 200px;
+            background: #72bca5;
+            /* para poder ubicar dentro de este contenedor lo que tiene dentro como position relative*/
+            position: relative;
+            top: 20px; /* separacion de arriba en la parte superir*/
+        }
+        .item{
+            width: 20px;
+            height: 20px;
+            background: #f4ddb4;
+            /* position:
+            absolute, se refiere que el espacio en el que se movera solo sera el 'container'*/
+            position: absolute;
+            right: 0;
+        }
+        nav {
+            width: 100%;
+            height: 60px;
+            background: #f1ae2b;
+            /* fixed, significa que se quedara fijado en la posiscion que le coloques */
+            position: fixed;
+            top: 0;
+        }
+        ul p{
+            /* Esto hace que se adiera o pegue en la parte superior con forme se valla escrolleando */
+            position: sticky;
+            top: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav></nav>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, autem sunt nesciunt veniam ex, fugit consequuntur voluptate, eum ad rem odio alias. Soluta ab vel saepe corporis nobis! Quae, corporis!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nesciunt qui minima hic ratione in itaque exercitationem aliquam, voluptatum officia? Non, tempora vel quia cumque quo sapiente deleniti eum suscipit!</p>
+    <p>How are you to day?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quod laborum pariatur aperiam eum alias voluptates reiciendis natus dolorem tenetur ex, excepturi repellat quos neque magnam numquam impedit odio ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius modi nobis accusantium pariatur velit facilis laborum quas enim unde, atque, natus doloribus corrupti fugiat exercitationem ducimus recusandae aspernatur iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita pariatur maxime natus, est consequatur culpa at ratione quos quis totam harum neque, ab iure et excepturi veniam reiciendis nulla? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maiores, tenetur quibusdam qui nisi iure dolores error praesentium nesciunt tempora fugit placeat odio laboriosam tempore, officia molestiae expedita fugiat cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id soluta rem, consequatur possimus ex mollitia, harum quas corporis nobis esse beatae sequi itaque quis, provident quia atque? Voluptatibus, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id earum voluptate repudiandae! Labore necessitatibus facilis est aperiam inventore exercitationem dignissimos incidunt iusto suscipit commodi non, dicta consequuntur dolore voluptates illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, beatae libero. Praesentium obcaecati dicta aspernatur a maxime fugiat impedit, tempore id enim assumenda! Est impedit quas assumenda deserunt nesciunt eveniet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quos soluta labore, repellendus incidunt inventore quia repellat accusamus, non, optio natus corporis assumenda! Id velit commodi et reprehenderit perspiciatis provident?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cum labore tempore molestias ipsam vitae facere porro quam deleniti? Deleniti velit labore in voluptatum, dolores praesentium sint laudantium minus quidem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae amet aut dolore repellendus consectetur praesentium doloribus nesciunt optio blanditiis voluptatibus, deserunt quae delectus provident expedita vel quidem tempora totam aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nulla esse voluptatibus, autem quos tempora iure neque veniam dignissimos ab. Nisi suscipit assumenda, dicta deserunt perspiciatis placeat eaque doloribus numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem exercitationem ullam voluptatibus, fuga ad incidunt consequuntur ex qui ut! Laboriosam, nam ipsam velit nobis fugiat distinctio fuga hic enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum ex beatae. Aut quod sunt iusto suscipit id, iure voluptatibus consequuntur sed quasi autem ipsam. Nemo dolor officiis inventore ad!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nisi amet maiores accusamus libero error neque necessitatibus animi officia? Molestiae modi perferendis vero culpa, illum in quos officia laborum quaerat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae magnam vero aut hic distinctio aliquam, eveniet aspernatur fugit tempore cum velit iure minima inventore laudantium dignissimos omnis doloribus libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis commodi culpa odit magnam? Maxime iure omnis dolores aut accusamus eum quibusdam! Doloribus, accusantium sapiente. Delectus odit placeat molestias dicta quia!</p>
+
+    <ul>
+        <p>Fruit</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit2</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit3</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit4</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit5</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit6</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit7</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit8</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+
+    <ul>
+        <p>Fruit9</p>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        <li>Watermelon</li>
+    </ul>
+</body>
+</html>
