@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Esto nos facilita la vida para que en vez de que sea 1rem = 16px
+            ahora seria 1rem = 10px, seria multiplos de 10 
+            
+            Para llegar a estos calculos pse usa una regla de 3 que seria 
+            100% -------> 16 px
+            x% -------> 10px
+            x=62.5  <- Esto es lo que colocamos en nuestro html{}
+            */
+        html{
+            font-size: 62.5%;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background: #e0e4cc;
+        }
+        /* 1rem a 16px */
+        p {
+            font-size: 2rem;
+        }
+        .container {
+            /* La medida 'vw' significa que va a ocupar todo el espacio de wifth */
+            width: 100vw;
+            /* La medida 'vh'  significa que va a ocupar todo el espaciio de heigth*/
+            height: 100vh;
+            background: #a7dbd8;
+        }
+    </style>
+</head>
+<body>
+    <div>Platzi</div>
+    <p>Jesus David</p>
+    <div class="container">
+
+    </div>
+</body>
+</html>
