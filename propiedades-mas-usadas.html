@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            width: 350px;
+            height: 700px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            background: #cccccc;
+            /* ESTO QUIERE DECIR QUE TODO LO QUE SE SALGA DE LA CARD LO VA A ESCONDER */
+            overflow: hidden;
+            box-shadow: 8px 9px 29px 0px rgba(115,115,115,0.8);
+            -webkit-box-shadow: 8px 9px 29px 0px rgba(115,115,115,0.8);
+            -moz-box-shadow: 8px 9px 29px 0px rgba(115,115,115,0.8);
+            z-index: 1;
+        }
+        /* BANNER */
+        .card img:nth-child(1){
+            width: 100%;
+            height: 38%;
+        }
+        /* FOTO DE PORTADA */
+        .card img:nth-child(2){
+            /* width: 50%; */
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+            top: 180px;
+            display: flex;
+            position: absolute;
+            border: 4px solid #cccccc;
+        }
+        /* FOUNT DE LA LETRA */
+        .card p{
+            Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+            color: #666666;
+            text-align: center;
+            position: absolute;
+        }
+        /* NOMBRE, OCUPACION */
+        .card p:nth-child(3){
+            font-size: 20px;
+            top: 360px;
+        }
+        .card p:nth-child(4){
+            font-size: 15px;
+            top: 390px;
+        }
+        .card p:nth-child(5){
+            font-size: 15px;
+            top: 410px;
+        }
+        /* UBICACION */
+        .card img:nth-child(6){
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 490px;
+            left: 500px;
+        }
+        .card p:nth-child(7){
+            font-size: 15px;
+            top: 481px;
+            left: 540px;
+        }
+        /* INSTAGRAM */
+        .card img:nth-child(8){
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 540px;
+            left: 500px;
+        }
+        .card p:nth-child(9){
+            font-size: 15px;
+            top: 531px;
+            left: 540px;
+        }
+        /* EMAIL */
+        .card img:nth-child(10){
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 590px;
+            left: 500px;
+        }
+        .card p:nth-child(11){
+            font-size: 15px;
+            top: 581px;
+            left: 540px;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+           
+        <div class="card">
+            <img src="https://i.pinimg.com/564x/87/7f/54/877f54f2317150e358d8b57946d3f7dc.jpg" alt="banner">
+            <img src="https://scontent.fmex22-1.fna.fbcdn.net/v/t1.6435-9/160554801_3547020505523320_9183091810792315793_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEnAoubS13BJsw6DBP3VMyiMVRi2LGHC-gxVGLYsYcL6AhUXfJZByaL1rpz6S0bHWvAs3wlluq703fRL06Eo5Lv&_nc_ohc=eYfU-_aT8_MAX8oeyP0&_nc_ht=scontent.fmex22-1.fna&oh=00_AfDJpv6dIN0RraIGHNcM19V3aCtZ43Ll8_Hc1Ri-yLnRrQ&oe=64717BC8" alt="profil">
+            <p>Jesus Ruiz</p>
+            <p>Computer engineering student</p>
+            <p>Front end Developer</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3742/3742079.png" alt="maps">
+            <p>Mexico City</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111491.png" alt="instagram">
+            <p>@jesus_ruiz39</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/80/80599.png" alt="email">
+            <p>jdeivid1111@gmail.com</p>
+        </div>
+    </section>    
+</body>
+</html>
