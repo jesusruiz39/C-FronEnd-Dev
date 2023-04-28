@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Desingn</title>
+    <style>
+        div{
+            background: #cbdcdf;
+        }
+        /* Esto quiere decir que cuando todos los valores sean mayores a lo que esta entre parentesis va a ejecutar lo de adentro */
+        @media (min-width: 700px) {
+            div{
+                background: #d1b8a0;
+            }
+        }
+        /* Esto es cuando los valores sean menores al puesto realizara lo que esta dentro */
+        @media (max-width: 300px) {
+            div{
+                background: #ff8830;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Jesus
+    </div>
+</body>
+</html>
