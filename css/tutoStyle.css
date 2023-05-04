@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1{
+    background: #fc6e3d;
+    top: 30px;
+    z-index: 3;
+}
+.card-2{
+    background: #ffd41f;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.card-3{
+    background: #00b34c;
+    top: 70px;
+    z-index: 1;
+}
