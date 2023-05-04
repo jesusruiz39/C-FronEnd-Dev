@@ -12,3 +12,5 @@ This is a basic Front end course, which I'm uploading to my gitHub to be able to
 ![z-index](https://i.postimg.cc/6681Pgmt/Captura-desde-2023-04-27-15-19-47.png "z-index")
 
 >Don't stop learning
+
+Finalizacion curso
